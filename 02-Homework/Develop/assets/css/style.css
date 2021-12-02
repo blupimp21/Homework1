@@ -14,14 +14,13 @@ body {
 .header {
     display: flex;
     padding: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     background-color: #2a607c;
     color: #ffffff;  
 }
 /* rule for top title*/
 .header h1 {
     display: inline-block;
-    align-self: flex-start;
     font-size: 48px;
 }
 /* adding color in main title */
@@ -29,19 +28,19 @@ body {
     color: #d9dcd6;
 }
 /* properties to the div in header */
-.header div {
+.header nav {
     padding-top: 15px;
-    margin-right: 0px;
+    margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 /* removes style to the ul tag in hte header */
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 /* adds display inline block to stryctyre of hte header */
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -80,23 +79,20 @@ p {
 
 /* sets content and stacks description sections*/
 .content {
-
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-
 }
 
 /* main rule for the benifits section*/
 .benefits {
-    display: ;
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #2589bd;
 }
 
@@ -120,18 +116,18 @@ p {
 
 /* setting properties for main body content */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 10%;
-    padding: 50px;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    padding:  50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #0072bb;
     color: #ffffff;
 }
 
 /* rules to fix images in main section */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 150px;
-    padding: 10px;
+    max-height: 200px;
+    
 }
 
 /* set properties for the headers in main content section*/
@@ -144,7 +140,7 @@ p {
 .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     text-align: center;
 }
 
